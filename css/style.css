@@ -28,7 +28,8 @@ h2{
    margin:0 auto 15px;
    margin-bottom:0px;
    padding:15px 20px;
-   font-size: 0.95rem;
+   margin-bottom: 20px;
+    height: 40px;
    line-height: 1.5;
    text-decoration: none;
    transition: all 0.2s ease-in-out;
@@ -71,4 +72,11 @@ h2{
 .links_item:hover{
    opacity: 0.75;
 
+ }
+
+ @media only screen and (max-width:500px)
+ {
+   .links_item{
+     padding: 20px;
+   }
  }

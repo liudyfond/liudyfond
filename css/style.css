@@ -1,11 +1,22 @@
 .logo{
-  width:200px;
+  width:250px;
   display: block;
     margin-left: auto;
     margin-right: auto;
-    margin-top:30px;
+    /* margin-top:30px; */
+}
+h3{
+  margin-top:0;
 }
 body{
+  /* background-image: url("../img/background.jpg"); */
+  background-position: center center;
+background-repeat: no-repeat;
+background-attachment: fixed;
+background-size: cover;
+-webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
   text-align: center;
 }
 h2{
@@ -21,13 +32,43 @@ h2{
    line-height: 1.5;
    text-decoration: none;
    transition: all 0.2s ease-in-out;
-   color:black;
+   color:white;
+   font-family: 'Karla', 'Karla', sans-serif
  }
 
  .links_item_link1{
-  border-bottom: 3px solid #ffa093;
-  box-shadow: inset 0 -4px 0 #ffa093;
-  border-radius: 25px;
-  border: 2px solid #ffa093;
-  background-color: #ffa093;
+  border-bottom: 3px solid #000000;
+  box-shadow: inset 0 -4px 0 #000000;
+  /* border-radius: 25px; */
+  border: 2px solid #000000;
+  /* border-color: white; */
+  background-color: #000000;
 }
+.links_item_link2{
+ border-bottom: 3px solid #7b082c;
+ box-shadow: inset 0 -4px 0 #7b082c;
+ /* border-radius: 25px; */
+ border: 2px solid #7b082c;
+ /* border-color: white; */
+ background-color: #7b082c;
+}
+.links_item_link3{
+ border-bottom: 3px solid #ae0e41;
+ box-shadow: inset 0 -4px 0 #ae0e41;
+ /* border-radius: 25px; */
+ border: 2px solid #ae0e41;
+ /* border-color: white; */
+ background-color: #ae0e41;
+}
+.links_item_link4{
+ border-bottom: 3px solid #eeac18;
+ box-shadow: inset 0 -4px 0 #eeac18;
+ /* border-radius: 25px; */
+ border: 2px solid #eeac18;
+ /* border-color: white; */
+ background-color: #eeac18;
+}
+.links_item:hover{
+   opacity: 0.75;
+
+ }

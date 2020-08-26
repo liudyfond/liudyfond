@@ -29,7 +29,7 @@ h2{
    margin-bottom:0px;
    padding:15px 20px;
    margin-bottom: 20px;
-    height: 40px;
+  height: 40px;
    line-height: 1.5;
    text-decoration: none;
    transition: all 0.2s ease-in-out;
@@ -78,5 +78,8 @@ h2{
  {
    .links_item{
      padding: 20px;
+     margin-bottom: 20px;
+    height: 60px;
+    font-size: 20px;
    }
  }

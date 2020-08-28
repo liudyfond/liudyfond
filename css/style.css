@@ -44,16 +44,16 @@ h2{
   background-color: #000000;
 }
 .links_item_link2{
- border-bottom: 3px solid #7b082c;
- box-shadow: inset 0 -4px 0 #7b082c;
- border: 2px solid #7b082c;
- background-color: #7b082c;
-}
-.links_item_link3{
  border-bottom: 3px solid #ae0e41;
  box-shadow: inset 0 -4px 0 #ae0e41;
  border: 2px solid #ae0e41;
  background-color: #ae0e41;
+}
+.links_item_link3{
+ border-bottom: 3px solid #7b082c;
+ box-shadow: inset 0 -4px 0 #7b082c;
+ border: 2px solid #7b082c;
+ background-color: #7b082c;
 }
 .links_item_link4{
  border-bottom: 3px solid #eeac18;

@@ -46,7 +46,14 @@ h2{
  b{
    color:#eeac18;
  }
-
+ .footer-section{
+   font-family: 'Karla', 'Karla', sans-serif;
+   font-weight: lighter;
+   padding-top: 25px;
+   font-size: 12px;
+   color: #838488;
+   line-height: normal;
+ }
  @media only screen and (max-width:500px)
  {
    .links_item{
@@ -57,5 +64,8 @@ h2{
    .links_item_link1
   {
      padding-top: 25px!important;
+   }
+   .footer-section{
+     padding-top: 30px;
    }
  }

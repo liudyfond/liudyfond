@@ -9,6 +9,7 @@ h3{
   margin-top:0;
 }
 body{
+  background-image: url("../img/background.jpg");
   background-position: center center;
   background-repeat: no-repeat;
   background-attachment: fixed;

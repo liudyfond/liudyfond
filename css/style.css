@@ -57,14 +57,13 @@ h2{
   background-color: #7b082c;
 }
 .links_item_link4{
-  border-bottom: 3px solid #eeac18;
+  border-bottom: 1px solid #eeac18;
   box-shadow: inset 0 -4px 0 #eeac18;
   border: 2px solid #eeac18;
   background-color: #eeac18;
 }
 .links_item:hover{
   opacity: 0.75;
-
 }
 .footer-section{
   font-family: 'Karla', 'Karla', sans-serif;
@@ -81,12 +80,11 @@ h2{
     /* text-transform: uppercase; */
     padding: 20px;
     margin-bottom: 20px;
-    height: 60px;
+    height: 50px;
     font-size: 24px;
   }
   .links_item_link1,
-  .links_item_link3,
-  .links_item_link4{
+  .links_item_link3{
     padding-top: 25px!important;
     line-height: 50px;
   }
@@ -96,5 +94,10 @@ h2{
   }
   .footer-section{
     padding-top: 30px;
+  }
+  .links_item_link4{
+    height: 40px;
+    padding-top: 20px!important;
+    line-height: 50px;
   }
 }
